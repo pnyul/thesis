@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.thesis.controller.AddSubjectWindowController">
+    <children>
+        <Label layoutX="20.0" layoutY="30.0" text="Subject " />
+        <Label layoutX="20.0" layoutY="70.0" text="Credit " />
+        <Label layoutX="20.0" layoutY="110.0" text="Exam(s) left" />
+        <Label layoutX="20.0" layoutY="150.0" text="Further registration possible" />
+        <Label layoutX="20.0" layoutY="190.0" text="Hours needed for learning" />
+        <Label layoutX="20.0" layoutY="230.0" text="Prerequirement" />
+        <TextField fx:id="subjectTextField" layoutX="190.0" layoutY="26.0" onMouseClicked="#subjectTextFieldClicked" prefHeight="25.0" prefWidth="161.0" />
+        <ComboBox fx:id="creditComboBox" layoutX="190.0" layoutY="66.0" prefHeight="25.0" prefWidth="161.0" />
+        <ComboBox fx:id="examsLeftComboBox" layoutX="190.0" layoutY="106.0" prefHeight="25.0" prefWidth="161.0" />
+        <ComboBox fx:id="hoursNeededComboBox" layoutX="190.0" layoutY="186.0" prefHeight="25.0" prefWidth="161.0" />
+        <CheckBox fx:id="furtherRegCheckBox" layoutX="263.0" layoutY="150.0" mnemonicParsing="false" />
+        <CheckBox fx:id="prerequirementCheckBox" layoutX="263.0" layoutY="230.0" mnemonicParsing="false" />
+        <Button fx:id="saveButton" layoutX="155.0" layoutY="280.0" mnemonicParsing="false" onAction="#saveButtonClicked" prefWidth="70.0" />
+        <Button fx:id="backButton" layoutX="155.0" layoutY="311.0" mnemonicParsing="false" onAction="#backButtonClicked" prefWidth="70.0" />
+    </children>
+</Pane>

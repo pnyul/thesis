@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="448.0" prefWidth="451.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.thesis.controller.SettingsWindowController">
+    <children>
+        <Label layoutX="21.0" layoutY="29.0" text="Username"/>
+        <Label layoutX="21.0" layoutY="91.0" text="New password"/>
+        <Label layoutX="21.0" layoutY="121.0" prefHeight="17.0" prefWidth="141.0" text="New password again"/>
+        <TextField fx:id="usernameTextField" editable="false" layoutX="199.0" layoutY="25.0" prefHeight="25.0"
+                   prefWidth="182.0"/>
+        <Button fx:id="saveButton" layoutX="191.0" layoutY="377.0" mnemonicParsing="false" onAction="#saveButtonClicked"
+                prefHeight="25.0" prefWidth="70.0"/>
+        <Button fx:id="backButton" layoutX="191.0" layoutY="408.0" mnemonicParsing="false" onAction="#backButtonClicked"
+                prefHeight="25.0" prefWidth="70.0"/>
+        <Label layoutX="21.0" layoutY="153.0" prefHeight="17.0" prefWidth="165.0" text="Max poss. exam per semester "/>
+        <Label layoutX="21.0" layoutY="184.0" text="Max poss. exam"/>
+        <ComboBox fx:id="maxSemComboBox" layoutX="199.0" layoutY="149.0" prefHeight="25.0" prefWidth="182.0"/>
+        <ComboBox fx:id="maxExamComboBox" layoutX="199.0" layoutY="180.0" prefHeight="25.0" prefWidth="182.0"/>
+        <PasswordField fx:id="newPasswordField" layoutX="199.0" layoutY="87.0" prefHeight="25.0" prefWidth="182.0"/>
+        <PasswordField fx:id="newPasswordAgainField" layoutX="199.0" layoutY="118.0" prefHeight="25.0"
+                       prefWidth="182.0"/>
+        <Label layoutX="21.0" layoutY="215.0" text="Begin of exam period"/>
+        <Label layoutX="21.0" layoutY="246.0" text="End of exam period"/>
+        <DatePicker fx:id="beginOfExamPeriodDatePicker" layoutX="199.0" layoutY="211.0" prefHeight="25.0"
+                    prefWidth="182.0"/>
+        <DatePicker fx:id="endOfExamPeriodDatePicker" layoutX="199.0" layoutY="242.0" prefHeight="25.0"
+                    prefWidth="182.0"/>
+        <Label layoutX="21.0" layoutY="277.0" text="Begin of supp. exam period"/>
+        <Label layoutX="21.0" layoutY="308.0" text="End of supp. exam period"/>
+        <DatePicker fx:id="beginOfSuppExamPeriodDatePicker" layoutX="199.0" layoutY="273.0" prefHeight="25.0"
+                    prefWidth="182.0"/>
+        <DatePicker fx:id="endOfSuppExamPeriodDatePicker" layoutX="199.0" layoutY="304.0" prefHeight="25.0"
+                    prefWidth="182.0"/>
+        <Label layoutX="21.0" layoutY="339.0" text="Duration of daily activities"/>
+        <ComboBox fx:id="durationOfDailyActivitiesComboBox" layoutX="199.0" layoutY="335.0" prefHeight="25.0"
+                  prefWidth="182.0"/>
+        <Label layoutX="394.0" layoutY="339.0" text="hours"/>
+        <Label fx:id="beginOfExamHintLabel" layoutX="394.0" layoutY="215.0" prefHeight="17.0" prefWidth="50.0"/>
+        <Label fx:id="endOfExamHintLabel" layoutX="394.0" layoutY="246.0" prefHeight="17.0" prefWidth="50.0"/>
+        <Label fx:id="beginOfSuppExamHintLabel" layoutX="394.0" layoutY="277.0" prefHeight="17.0" prefWidth="50.0"/>
+        <Label fx:id="endOfSuppExamHintLabel" layoutX="394.0" layoutY="308.0" prefHeight="17.0" prefWidth="50.0"/>
+        <Label layoutX="21.0" layoutY="60.0" text="Password"/>
+        <PasswordField fx:id="currentPasswordField" layoutX="199.0" layoutY="56.0" prefHeight="25.0" prefWidth="182.0"/>
+        <Button fx:id="deleteProfileButton" layoutX="366.0" layoutY="408.0" mnemonicParsing="false"
+                onAction="#deleteProfileButtonClicked" prefHeight="25.0" prefWidth="70.0"/>
+    </children>
+</Pane>

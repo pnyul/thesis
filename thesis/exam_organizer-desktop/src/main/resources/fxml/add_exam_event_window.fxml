@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="164.0" prefWidth="561.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.thesis.controller.AddExamEventWindowController">
+    <children>
+        <DatePicker fx:id="beginOfExamDatePicker" layoutX="107.0" layoutY="26.0"/>
+        <DatePicker fx:id="endOfExamDatePicker" layoutX="107.0" layoutY="72.0"/>
+        <Label layoutX="9.0" layoutY="30.0" text="Begin of exam"/>
+        <Label layoutX="9.0" layoutY="76.0" text="End of exam"/>
+        <ComboBox fx:id="beginHoursComboBox" layoutX="302.0" layoutY="26.0" prefHeight="25.0" prefWidth="60.0"/>
+        <ComboBox fx:id="endMinutesComboBox" layoutX="428.0" layoutY="72.0" prefHeight="25.0" prefWidth="60.0"/>
+        <ComboBox fx:id="endHoursComboBox" layoutX="302.0" layoutY="72.0" prefHeight="25.0" prefWidth="60.0"/>
+        <ComboBox fx:id="beginMinutesComboBox" layoutX="428.0" layoutY="26.0" prefHeight="25.0" prefWidth="60.0"/>
+        <Label layoutX="377.0" layoutY="30.0" text="hour(s)"/>
+        <Label layoutX="377.0" layoutY="76.0" text="hour(s)"/>
+        <Label layoutX="503.0" layoutY="30.0" text="minute(s)"/>
+        <Label layoutX="503.0" layoutY="76.0" text="minute(s)"/>
+        <Button fx:id="addButton" layoutX="191.0" layoutY="121.0" mnemonicParsing="false"
+                onAction="#addNewExamButtonClicked" prefWidth="70.0"/>
+        <Button fx:id="backButton" layoutX="300.0" layoutY="121.0" mnemonicParsing="false" onAction="#backButtonClicked"
+                prefHeight="25.0" prefWidth="70.0"/>
+    </children>
+</Pane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/exam_organizer-core/org.th" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-core/rc/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-core/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-core/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-desktop/org.th" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-desktop/rc/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-desktop/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-desktop/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-desktop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam_organizer-desktop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.th" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rc/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

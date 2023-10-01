@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="230.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.thesis.controller.AddGeneralEventWindowController">
+    <children>
+        <DatePicker fx:id="beginOfEventDatePicker" layoutX="132.0" layoutY="99.0"/>
+        <DatePicker fx:id="endOfEventDatePicker" layoutX="132.0" layoutY="145.0"/>
+        <Label layoutX="28.0" layoutY="103.0" text="Begin of event"/>
+        <Label layoutX="28.0" layoutY="149.0" text="End of event"/>
+        <ComboBox fx:id="beginHoursComboBox" layoutX="328.0" layoutY="99.0" prefHeight="25.0" prefWidth="60.0"/>
+        <ComboBox fx:id="endMinutesComboBox" layoutX="454.0" layoutY="145.0" prefHeight="25.0" prefWidth="60.0"/>
+        <ComboBox fx:id="endHoursComboBox" layoutX="328.0" layoutY="145.0" prefHeight="25.0" prefWidth="60.0"/>
+        <ComboBox fx:id="beginMinutesComboBox" layoutX="454.0" layoutY="99.0" prefHeight="25.0" prefWidth="60.0"/>
+        <Label layoutX="400.0" layoutY="103.0" text="hour(s)"/>
+        <Label layoutX="400.0" layoutY="149.0" text="hour(s)"/>
+        <Label layoutX="526.0" layoutY="103.0" text="minute(s)"/>
+        <Label layoutX="526.0" layoutY="149.0" text="minute(s)"/>
+        <Button fx:id="addButton" layoutX="215.0" layoutY="191.0" mnemonicParsing="false"
+                onAction="#addNewEventButtonClicked" prefWidth="70.0"/>
+        <Button fx:id="backButton" layoutX="316.0" layoutY="191.0" mnemonicParsing="false" onAction="#backButtonClicked"
+                prefHeight="25.0" prefWidth="70.0"/>
+        <Label layoutX="28.0" layoutY="29.0" text="Name of event"/>
+        <TextField fx:id="nameOfEventTextField" layoutX="132.0" layoutY="25.0"
+                   onMouseClicked="#nameOfEventTextFieldClicked"/>
+        <Label layoutX="28.0" layoutY="67.0" text="Daily?"/>
+        <CheckBox fx:id="dailyCheckBox" layoutX="132.0" layoutY="67.0" mnemonicParsing="false"
+                  onAction="#dailyCheckBoxOnAction"/>
+    </children>
+</Pane>

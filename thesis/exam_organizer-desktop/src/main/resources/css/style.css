@@ -1,0 +1,79 @@
+.table-view{
+    -fx-border-width: 1px 1px 0px 0px;
+    -fx-border-color: #000000;
+    -fx-selection-bar: #ffffff;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view *.scroll-bar:horizontal *.increment-button,
+.table-view *.scroll-bar:horizontal *.decrement-button {
+    -fx-padding: 0;
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+}
+
+.table-view *.scroll-bar:horizontal *.increment-arrow,
+.table-view *.scroll-bar:horizontal *.decrement-arrow {
+    -fx-padding: 0;
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-shape: null;
+}
+
+#calendarGridPane{
+    -fx-border-color: black;
+    -fx-border-width: 2px 2px 2px 2px;
+}
+
+#subjectsTableView .table-row-cell:selected{
+    -fx-border-color: #000000;
+}
+
+#subjectsTableView {
+    -fx-border-color: #000000;
+}
+
+#examDatesTableView{
+    -fx-border-color: #000000;
+}
+
+.combo-box{
+    -fx-border-color: #000000;
+}
+
+.combo-box:focused{
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: #000000;
+}
+
+.check-box:focused{
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: #000000;
+}
+
+.date-picker{
+    -fx-border-color: #000000;
+    -fx-border-width: 1px 1px 1px 1px;
+}
+
+.date-picker:focused{
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: #000000;
+}
+
+.button {
+    -fx-border-color: #000000;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.text-field:focused {
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: #000000;
+}
+
