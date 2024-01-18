@@ -7,6 +7,7 @@
 * MySQL
 * JDBC
 * JavaFX
+* CSS
 * JUnit5
 * SonarQube
 * Clean Code
